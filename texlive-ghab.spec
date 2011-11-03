@@ -1,3 +1,9 @@
+# revision 24412
+# category Package
+# catalog-ctan /macros/latex/contrib/ghab
+# catalog-date 2011-10-27 14:58:36 +0200
+# catalog-license lppl
+# catalog-version 0.2
 Name:		texlive-ghab
 Version:	0.2
 Release:	1
@@ -41,6 +47,7 @@ may be set using an optional argument.
 %doc %{_texmfdistdir}/doc/latex/ghab/README
 %doc %{_texmfdistdir}/doc/latex/ghab/ghab-doc.pdf
 %doc %{_texmfdistdir}/doc/latex/ghab/ghab-doc.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -51,3 +58,5 @@ may be set using an optional argument.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
