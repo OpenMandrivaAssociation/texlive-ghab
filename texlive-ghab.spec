@@ -1,11 +1,11 @@
-# revision 24412
+# revision 24550
 # category Package
 # catalog-ctan /macros/latex/contrib/ghab
-# catalog-date 2011-10-27 14:58:36 +0200
+# catalog-date 2011-11-08 11:57:42 +0100
 # catalog-license lppl
-# catalog-version 0.2
+# catalog-version 0.3
 Name:		texlive-ghab
-Version:	0.2
+Version:	0.3
 Release:	1
 Summary:	Typeset ghab boxes in LaTeX
 Group:		Publishing
