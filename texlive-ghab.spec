@@ -1,12 +1,12 @@
-# revision 24578
+# revision 29803
 # category Package
 # catalog-ctan /macros/latex/contrib/ghab
-# catalog-date 2011-11-11 07:02:55 +0100
+# catalog-date 2013-04-05 13:20:40 +0200
 # catalog-license lppl
-# catalog-version 0.4
+# catalog-version 0.5
 Name:		texlive-ghab
-Version:	0.4
-Release:	2
+Version:	0.5
+Release:	1
 Summary:	Typeset ghab boxes in LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ghab
@@ -48,25 +48,3 @@ may be set using an optional argument.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.4-2
-+ Revision: 752313
-- Rebuild to reduce used resources
-
-* Tue Nov 22 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.4-1
-+ Revision: 732519
-- texlive-ghab
-
-* Thu Nov 10 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.3-1
-+ Revision: 729659
-- texlive-ghab
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.2-1
-+ Revision: 718554
-- texlive-ghab
-- texlive-ghab
-- texlive-ghab
-- texlive-ghab
-
