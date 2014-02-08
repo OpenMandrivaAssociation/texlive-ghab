@@ -6,7 +6,7 @@
 # catalog-version 0.4
 Name:		texlive-ghab
 Version:	0.4
-Release:	2
+Release:	3
 Summary:	Typeset ghab boxes in LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ghab
